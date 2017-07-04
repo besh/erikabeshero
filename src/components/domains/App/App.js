@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import CSSModules from 'react-css-modules';
-import { Home, About } from '../index.js';
+import { Home, About } from 'domains';
 import Nav from './Nav/Nav.js';
 import styles from './App.css';
 

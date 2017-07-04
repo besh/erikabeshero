@@ -1,4 +1,5 @@
 .root {
+  composes: primary-color from 'composes/colors.css';
   text-align: center;
 }
 
