@@ -1,0 +1,3 @@
+.root {
+  composes: app-width from 'composes/sizes.css';
+}

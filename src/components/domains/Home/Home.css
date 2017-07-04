@@ -1,3 +1,7 @@
 .root {
-  
+
+}
+
+.root [class*=EmbedHeader] {
+  display: none;
 }
