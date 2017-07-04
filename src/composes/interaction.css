@@ -16,4 +16,5 @@
 .link[class*=active] {
   color: black;
   border-color: currentColor;
+  font-weight: 600;
 }

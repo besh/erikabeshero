@@ -8,10 +8,10 @@ class Nav extends Component {
     return (
       <nav styleName="root">
         <ul styleName="menu">
-          <li><NavLink exact to="/" styleName="link">Home</NavLink></li>
-          <li><NavLink to="/about" styleName="link">About</NavLink></li>
-          <li><NavLink to="/services" styleName="link">Services</NavLink></li>
-          <li><NavLink to="/contact" styleName="link">Contact</NavLink></li>
+          <li styleName="item"><NavLink exact to="/" styleName="link">Home</NavLink></li>
+          <li styleName="item"><NavLink to="/about" styleName="link">About</NavLink></li>
+          <li styleName="item"><NavLink to="/services" styleName="link">Services</NavLink></li>
+          <li styleName="item"><NavLink to="/contact" styleName="link">Contact</NavLink></li>
         </ul>
       </nav>
     );

@@ -12,10 +12,13 @@
   list-style: none;
 }
 
+.item {
+  flex: 1;
+}
+
 .link {
   composes: link from 'composes/interaction.css';
   display: block;
   margin-top: -1px;
-  min-width: 100px;
   text-align: center;
 }
