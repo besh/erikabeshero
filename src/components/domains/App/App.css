@@ -4,5 +4,18 @@
 }
 
 .header {
-  padding: 20px;
+  padding: 3rem 2rem;
+}
+
+.name {
+  color: black;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.tagline {
+  composes: secondary-color from 'composes/colors.css';
+  font-size: 1rem;
+  letter-spacing: 2px;
+  padding: 1rem 0 0;
 }

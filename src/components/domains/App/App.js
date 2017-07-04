@@ -11,7 +11,8 @@ class App extends Component {
       <Router>
         <div styleName="root">
           <div styleName="header">
-            <h3>Erika Beshero ~ Professional Organizer</h3>
+            <h1 styleName="name">Erika Beshero</h1>
+            <h2 styleName="tagline">Professional Organizer</h2>
           </div>
           <Nav />
           <Route exact path="/" component={Home}/>

@@ -1,0 +1,23 @@
+.primary-border {
+  border: 1px solid #454545;
+}
+
+.secondary-border {
+  border: 1px solid #777E85
+}
+
+.tertiary-border {
+  border: 1px solid #EFF0F1;
+}
+
+.primary-border-top {
+  border-top: 1px solid #454545;
+}
+
+.secondary-border-top {
+  border-top: 1px solid #777E85
+}
+
+.tertiary-border-top {
+  border-top: 1px solid #EFF0F1;
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import CSSModules from 'react-css-modules';
 import styles from './Nav.css';
 
@@ -8,8 +8,10 @@ class Nav extends Component {
     return (
       <nav styleName="root">
         <ul styleName="menu">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
+          <li><NavLink exact to="/" styleName="link">Home</NavLink></li>
+          <li><NavLink to="/about" styleName="link">About</NavLink></li>
+          <li><NavLink to="/services" styleName="link">Services</NavLink></li>
+          <li><NavLink to="/contact" styleName="link">Contact</NavLink></li>
         </ul>
       </nav>
     );

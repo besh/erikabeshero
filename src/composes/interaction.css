@@ -1,0 +1,19 @@
+.link {
+  transition: all 0.23s;
+  color: #777E85;
+  text-decoration: none;
+  border-top: 1px solid #EFF0F1;
+  padding-top: 0.5rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.link:hover {
+  color: #454545;
+  border-color: currentColor;
+}
+
+.link[class*=active] {
+  color: black;
+  border-color: currentColor;
+}
