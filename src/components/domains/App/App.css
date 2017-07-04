@@ -1,6 +1,9 @@
 .root {
   composes: primary-color from 'composes/colors.css';
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -18,4 +21,9 @@
   font-size: 1rem;
   letter-spacing: 2px;
   padding: 1rem 0 0;
+}
+
+.routes {
+  padding: 3rem 0;
+  flex: 1;
 }

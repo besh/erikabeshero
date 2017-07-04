@@ -1,0 +1,8 @@
+.root {
+  composes: tertiary-background from 'composes/colors.css';
+  height: 200px;
+}
+
+.menu {
+
+}

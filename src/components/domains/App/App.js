@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import CSSModules from 'react-css-modules';
 import { Home, About } from 'domains';
 import Nav from './Nav/Nav.js';
+import Footer from './Footer/Footer.js';
 import styles from './App.css';
 
 class App extends Component {
@@ -15,8 +16,11 @@ class App extends Component {
             <h2 styleName="tagline">Professional Organizer</h2>
           </div>
           <Nav />
-          <Route exact path="/" component={Home}/>
-          <Route path="/about" component={About}/>
+          <div styleName="routes">
+            <Route exact path="/" component={Home}/>
+            <Route path="/about" component={About}/>
+          </div>
+          <Footer />
         </div>
       </Router>
     );
