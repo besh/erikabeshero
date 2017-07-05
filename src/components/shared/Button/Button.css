@@ -1,0 +1,17 @@
+.root {
+  composes: secondary-border from 'composes/borders.css';
+  composes: primary-color from 'composes/colors.css';
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: none;
+  transition: all 0.23s;
+  outline: none;
+}
+
+.root:hover, .root:focus {
+  color: white;
+  background: black;
+  border-color: black;
+}

@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import CSSModules from 'react-css-modules';
 import styles from './Input.css';
 
-// const history = createBrowserHistory();
-
 const Input = (props) => {
   const { name, type, placeholder, label } = props;
   return (
