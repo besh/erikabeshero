@@ -21,3 +21,15 @@
 .tertiary-border-top {
   border-top: 1px solid #EFF0F1;
 }
+
+.primary-border-bottom {
+  border-bottom: 1px solid #454545;
+}
+
+.secondary-border-bottom {
+  border-bottom: 1px solid #777E85;
+}
+
+.tertiary-border-bottom {
+  border-bottom: 1px solid #EFF0F1;
+}

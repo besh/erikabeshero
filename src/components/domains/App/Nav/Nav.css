@@ -5,8 +5,7 @@
 }
 
 .menu {
-  max-width: 800px;
-  margin: 0 auto;
+  composes: nav-width from 'composes/sizes.css';
   display: flex;
   justify-content: space-between;
   list-style: none;

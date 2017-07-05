@@ -8,7 +8,7 @@ class InstaGallery extends Component {
   }
 
   iframe() {
-    return {__html: '<script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/eb47fcba829459ad97583055194fa02b.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>'};
+    return {__html: '<!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/699f7cedcb565e6aa05160b8dbde1543.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; min-height: 740px;"></iframe>'};
   }
 
   render() {

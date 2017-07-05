@@ -1,0 +1,7 @@
+.root {
+  composes: nav-width from 'composes/sizes.css';
+}
+
+.row {
+  margin-bottom: 3rem;
+}
